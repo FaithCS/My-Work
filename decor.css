@@ -1,0 +1,48 @@
+
+.base{
+    background-color: orange;
+}
+header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+header.nav{
+    justify-content: center;
+    margin-top: 10px;
+    padding: 15px;
+    align-items: center;
+    align-content: center;
+}
+
+header.container :hover{
+    text-transform: uppercase;
+   background-image: url('images (2).jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+footer.container {
+    background-color: darkgray;
+    text-align: center;
+    border-color: black;
+    border-style: double;
+    margin-bottom: 1cm;
+}
+
+.Info {
+    background-color: white;
+    padding: 5px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px;
+    display: grid;
+}
+
+nav.container{
+    box-shadow: 10px;
+    border-color: darkgray;
+    box-sizing: content-box;
+}
